@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    width: 100vw;
+    height: 100vh;
+
+    font-family: sans-serif;
+    color: black;
+}
+
+.container {
+    text-align: center; 
+}
+
+h1 {
+    font-style: italic;
+    font-size: 4rem;
+}
+
+p {
+    margin: 10% 0;
+}
+
+a {
+    background-color: steelblue;
+    padding: 1rem;
+    border-radius: 1.3rem;
+    text-decoration: none;
+    color: snow;
+    font-size: 1.1rem;
+    font-weight: 900;
+}
